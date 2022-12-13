@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/book/yuhu_study/c++/Linux_socket/linux_server/main.cpp
+iostream
+-
+cstdio
+-
+cstdlib
+-
+cerrno
+-
+cstring
+-
+sys/socket.h
+-
+sys/types.h
+-
+netinet/in.h
+-
+unistd.h
+-
+arpa/inet.h
+-
+
+/home/book/yuhu_study/c++/Linux_socket/linux_server/src/server.cpp
+
